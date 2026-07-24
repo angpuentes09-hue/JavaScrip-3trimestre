@@ -1,7 +1,8 @@
 {
   "name": "24-julio",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "main": "app.js",
   "license": "MIT",
   "dependencies": {
     "express": "^5.2.1"
