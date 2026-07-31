@@ -8,3 +8,6 @@ nmp install
 git:
 crear rama: git branch nombre_rama 
 git checkout -b nombre-rama
+
+CONFIGURACIÓN DE VARIABLES DE ENTORNO 
+node --watch app.js 
