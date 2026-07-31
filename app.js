@@ -32,6 +32,22 @@ app.get("/ruta4", (req, res) => {
             <p> pagina: ${pagina} </p>`);
 });
 
+app.get("/ruta5/:nombre", (req, res) => {
+  const nameusuario = req.params.nombre;
+  res.send(`Hola mundo ${nameusuario}`);
+});
+ 
+app.get("/ruta6/:nombre", (req, res) => {
+  const nameproducto = req.params.nombre;
+  res.json({ "producto": nameproducto, 
+              "id": 1, 
+              "stock": 10,
+              "preciounitario": 2800,
+              "categoria": "Comida" });
+});
+
+
+
 app.listen(port, () => {
   console.log(`SERVIDOR: http://localhost:${port}`);
 });
