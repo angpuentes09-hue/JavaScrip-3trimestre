@@ -1,0 +1,10 @@
+Iniciar sevidor, correr aplicación 
+mnode app.js 
+
+Para instalar 
+nmp install nombre de la dependencia 
+nmp install
+
+git:
+crear rama: git branch nombre_rama 
+git checkout -b nombre-rama
