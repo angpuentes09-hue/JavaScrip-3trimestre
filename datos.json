@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "nombre": "Angelica",
+    "apellido": "Puentes",
+    "email": "angelica.perez@example.com"
+  },
+  {
+    "id": 2,
+    "nombre": "angelica",
+    "edad": 17,
+    "correo": "angpuentes09@gmail.com",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "samntha",
+    "edad": 17,
+    "correo": "samantha09@gmail.com",
+    "imagen": "sin imagen"
+  }
+]
