@@ -16,4 +16,6 @@ DESPUES DE INSTALAR LAS DEPENDENCIAS INICIAR PRISMA
 
 npx prisma init --datasource-provider postgresql
 
+angelica odia a samntha y a migurl b
+
 
