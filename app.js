@@ -9,6 +9,7 @@ const manejadorErrores = require('./src/middleware/manejadorErrores');
 const autenticacion = require('./src/middleware/autenticacion');
 
 // Middlewares para parsear el body
+//Cambio de middleware body-parser a express.json() y express.urlencoded()
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
